@@ -26,6 +26,8 @@ export default [
   {
     firstName: "Verla",
     lastName: "Calhoun",
+    roles: "Front-end",
+    projects: ["Fanz", "Arbotena", "20Scoops"],
   },
   {
     firstName: "Misha",

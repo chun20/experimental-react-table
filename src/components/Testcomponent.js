@@ -55,7 +55,7 @@ function GlobalFilter({
       <input
         value={globalFilter || ""}
         onChange={e => {
-          setGlobalFilter(e.target.value || undefined) // Set undefined to remove the filter entirely
+          setGlobalFilter(e.target.value || undefined)
         }}
         placeholder={`${count} records...`}
         style={{
@@ -77,7 +77,7 @@ function DefaultColumnFilter({
     <input
       value={filterValue || ""}
       onChange={e => {
-        setFilter(e.target.value || undefined) // Set undefined to remove the filter entirely
+        setFilter(e.target.value || undefined)
       }}
       placeholder={`Search ${count} records...`}
     />
@@ -87,7 +87,6 @@ function DefaultColumnFilter({
 function Table({ columns: userColumns, data }) {
   const defaultColumn = React.useMemo(
     () => ({
-      // Let's set up our default Filter UI
       Filter: DefaultColumnFilter,
     }),
     []

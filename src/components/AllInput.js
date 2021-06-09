@@ -1,6 +1,5 @@
-import React, { useState, useRef, useEffect } from "react"
-import PropTypes from "prop-types"
-import { Grid, Input, Button, Paper } from "@material-ui/core"
+import React, { useRef, useEffect } from "react"
+import { Grid, Button, Paper } from "@material-ui/core"
 import { TextField } from "final-form-material-ui"
 import styled from "styled-components"
 import { Form, Field } from "react-final-form"
