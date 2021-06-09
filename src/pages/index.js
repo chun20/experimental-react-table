@@ -11,7 +11,6 @@ const IndexPage = () => {
   const [tableData, setTableData] = useState(mockupData)
 
   const addDataTable = value => {
-    // console.log("value Data", value)
     setTableData(prevArray => [...prevArray, value])
   }
   return (
